@@ -1,8 +1,14 @@
 # amplify-shopping-list
 
-youtube link reference : https://www.youtube.com/watch?v=qKX5hAvpgXc
+Build a Real Time Shopping List with AWS Amplify and Vuejs
 
-blog link :  https://levelup.gitconnected.com/realtime-shopping-list-app-with-aws-amplify-appsync-graphql-and-vue-js-94f9d45fe9d2
+Short Video below of how Real-time the request work using Amplify.
+
+
+
+
+
+
 
 Commans not mentioned :
 
