@@ -12,8 +12,6 @@ https://user-images.githubusercontent.com/35069575/124182683-d1a36380-dad4-11eb-
 
 AWS Congnito User Pool
 
-Screenshot 2021-07-02 at 1.18.05 AM
-Screenshot 2021-07-02 at 1.17.40 AM
 Screenshot 2021-07-02 at 1.16.45 AM![Screenshot 2021-07-02 at 1 18 05 AM](https://user-images.githubusercontent.com/35069575/124182701-d9fb9e80-dad4-11eb-8ef5-fca6dc9e9acc.png)
 
 
