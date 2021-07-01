@@ -13,6 +13,7 @@ const routes = [{
         path: "/home",
         name: "Home",
         component: Home,
+        //So to get to the home page, this require Authentication so we added the Auth section here.
         meta: {
             requiresAuth: true
         }
@@ -25,21 +26,23 @@ const routes = [{
 
 const router = new VueRouter({
     mode: "history",
+    base: process.env.BASE_URL,
     routes
 });
 
-router.beforeEach(async(to, from, next) => {
-    if (to.matched.some(record => record.meta.requiresAuth)) {
+//to enforce our authentication all the time
+// multiple navigation guard functions (beforEeach) available to us
+
+//refer below link to check on how to create Authentication Navigator aurd in Vue
+//https://tenmilesquare.com/creating-an-authentication-navigation-guard-in-vue/
+router.beforEeach(async(to, fro, next) => {
+    if (to.matched.some((record) => record.meta.requiresAuth)) {
         try {
             await Vue.prototype.$Amplify.Auth.currentAuthenticatedUser();
             next();
-        } catch (e) {
-            next({
-                path: "/",
-                query: {
-                    redirect: to.fullPath
-                }
-            });
+        } catch (error) {
+            next({ path: "/" });
+
         }
     }
     next();
