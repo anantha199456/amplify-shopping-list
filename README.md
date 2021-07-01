@@ -6,7 +6,18 @@ Short Video below of how Real-time the request work using Amplify.
 
 
 
+https://user-images.githubusercontent.com/35069575/124182683-d1a36380-dad4-11eb-8890-6d144a19f9c7.mov
 
+# Command - amplify console. - to check the resources that have created in AWS.
+
+AWS Congnito User Pool
+
+Screenshot 2021-07-02 at 1.16.45 AM![Screenshot 2021-07-02 at 1 18 05 AM](https://user-images.githubusercontent.com/35069575/124182701-d9fb9e80-dad4-11eb-8ef5-fca6dc9e9acc.png)
+
+
+AWS DynamoDB Table contents :
+
+Screenshot 2021-07-02 at 1.17.40 AM![Screenshot 2021-07-02 at 1 17 40 AM](https://user-images.githubusercontent.com/35069575/124183082-5d1cf480-dad5-11eb-9f12-5a3a2b529ef8.png)
 
 
 
